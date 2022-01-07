@@ -1,0 +1,57 @@
+h1 {
+  color: black;
+  text-align: center;
+  padding: 25px;
+}
+
+#temperature,
+.units {
+  text-align: center;
+  display: block;
+  font-size: 40px;
+}
+
+.currentTime {
+  text-align: left;
+  font-size: 25px;
+  padding: 25px;
+}
+
+.weather-details {
+  display: block;
+  padding: 0px 50px;
+  text-align: right;
+  top: 0px;
+  right: 0px;
+  list-style-type: none;
+}
+
+.sun-icon {
+  text-align: center;
+  margin: 290px;
+  font-size: 55px;
+}
+
+#date {
+  text-align: center;
+  font-size: 25px;
+}
+
+.forecast {
+  text-align: center;
+  font-size: x-large;
+  padding: 25px;
+}
+
+form {
+  padding: 25px;
+}
+
+button {
+  padding: 10px;
+}
+
+body {
+  border: 5px solid black;
+  margin: 50px;
+}
