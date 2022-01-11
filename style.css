@@ -1,3 +1,13 @@
+
+.vertical-grouping {
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.temp-align{
+  text-align: center;
+}
 h1 {
   color: black;
   text-align: center;
@@ -7,7 +17,7 @@ h1 {
 #temperature,
 .units {
   text-align: center;
-  display: block;
+  /* display: block; */
   font-size: 40px;
 }
 
@@ -17,25 +27,39 @@ h1 {
   padding: 25px;
 }
 
+.weather-grouping {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .weather-details {
-  display: block;
-  padding: 0px 50px;
-  text-align: right;
-  top: 0px;
-  right: 0px;
+  /* display: block; */
+  /* padding: 0px 50px; */
+  /* text-align: right; */
+  /* top: 0px;
+  right: 0px; */
   list-style-type: none;
 }
 
-.sun-icon {
-  text-align: center;
-  margin: 290px;
-  font-size: 55px;
+.box {
+  flex:1;
+  display: flex;
+  justify-content:center;
 }
 
-#date {
-  text-align: center;
-  font-size: 25px;
-}
+ .sun-icon {
+   
+  
+  font-size: 55px;
+} 
+
+ #date {
+  
+  font-size: 22px;
+  font-weight: bold;
+} 
 
 .forecast {
   text-align: center;
@@ -51,7 +75,17 @@ button {
   padding: 10px;
 }
 
-body {
-  border: 5px solid black;
-  margin: 50px;
+.weather-app-wrapper {
+  
+  border: 1px solid rgba(123, 115, 144, 0.3);
+  border-radius: 20px;
+box-shadow: -1px 4px 29px 1px rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  max-width: 600px;
+  min-width: 600px;
+  
+}
+
+.git-connect {
+  text-align: center;
 }
