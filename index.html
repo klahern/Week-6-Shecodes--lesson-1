@@ -42,52 +42,38 @@
 
       <hr />
 
-      <div class=forecast>
+      <div class="forecast">
         <div class="row justify-content-center">
           <div class="col-2">
-            🌤
-            <div> 67/46°
-
+            <img src="http://openweathermap.org/img/wn/${response.data.weather[0].icon}@1x.png">
+            <div class="weather-forecast-temperatures">
+              <span class="weather-forecast-temperatures-max"> 67° </span>
+              <span class="weather-forecast-temperatures-min">43°</span>
             </div>
           </div>
-          <div class="col-2">
-
-            🌤
-            <div>67°/49°</div>
-          </div>
-          <div class="col-2">
-            ☁
-            <div>62°/44° </div>
-          </div>
-          <div class="col-2">
-            🌤
-            <div>62°/47°</div>
-          </div>
-          <div class="col-2">
-            🌤
-            <div> 62°/45°</div>
-          </div>
         </div>
-
-        <div>
-          <form class="search-form" id="search-form">
-            <input type="search" placeholder="Type a city..." autocomplete="off" id="city-input">
-            <button> Search </button>
-            <button id="current-location-button"> Current </button>
-          </form>
-        </div>
-
-
-
-        <script src="index.js"></script>
-
       </div>
 
 
+      <div>
+        <form class="search-form" id="search-form">
+          <input type="search" placeholder="Type a city..." autocomplete="off" id="city-input">
+          <button> Search </button>
+          <button id="current-location-button"> Current </button>
+        </form>
+      </div>
     </div>
-    <div class="git-connect"><a href="https://github.com/klahern/Week-6-Shecodes--lesson-1">Open-source
-        code</a> by Kalise Ahern
-    </div>
+
+
+    <script src="index.js"></script>
+
+  </div>
+
+
+  </div>
+  <div class="git-connect"><a href="https://github.com/klahern/Week-6-Shecodes--lesson-1">Open-source
+      code</a> by Kalise Ahern
+  </div>
 </body>
 
 
