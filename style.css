@@ -27,6 +27,10 @@ h1 {
   padding: 25px;
 }
 
+#weather-description {
+  font-size: 25px;
+
+}
 .weather-grouping {
   display: flex;
   flex-direction: row;

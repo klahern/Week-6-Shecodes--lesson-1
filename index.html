@@ -20,21 +20,22 @@
         </h1>
         <div class="temp-align">
           <span id="temperature"></span>
-          <span class="units"> C°
+          <span class="units"> °F
           </span>
+          <div id="weather-description">Clear</div>
         </div>
       </div>
+
 
       <div class="weather-grouping">
         <div class="box">
           <div id="date"></div>
         </div>
-        <div class="box"> <span class="sun-icon">☀</span></div>
+        <div class="box"> <img id="weather-icon" /></div>
 
         <div class="box"><span class="weather-details">
-            <li>Precipitation: 20%</li>
-            <li>Humidity: 69% </li>
-            <li>Wind: 9 mph</li>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span>mph</li>
           </span>
         </div>
       </div>
