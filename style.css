@@ -53,11 +53,6 @@ h1 {
   justify-content:center;
 }
 
- .sun-icon {
-   
-  
-  font-size: 55px;
-} 
 
  #date {
   
@@ -65,20 +60,57 @@ h1 {
   font-weight: bold;
 } 
 
-.forecast {
-  text-align: center;
-  font-size: x-large;
-  padding: 25px;
+
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
-form {
-  padding: 25px;
+.buttons-grouped {
+
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  
+ 
 }
 
-button {
+#search-button {
+
+  border-radius: 10px;
   padding: 10px;
+  transition-duration:0.5s;
+transition: all 150ms ease-in-out
+
 }
 
+#search-button:hover {
+ background-color: lightgray;
+border:2px solid white;
+  color:white;
+ 
+
+}
+
+#current-location-button {
+border-radius: 10px;
+padding: 10px;
+transition-duration:0.5s;
+transition: all 150ms ease-in-out
+
+}
+
+#current-location-button:hover {
+  
+background-color: lightgray;
+border:2px solid white;
+  color:white;
+}
 .weather-app-wrapper {
   
   border: 1px solid rgba(123, 115, 144, 0.3);

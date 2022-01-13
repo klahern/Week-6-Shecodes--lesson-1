@@ -23,12 +23,8 @@ function formattedDate(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
-function displayForecast(response)
-function getForecast(coordinates) {
-  let apiKey=`5f472b7acba333cd8a035ea85a0d4d4c`;
-  let apiURL=`https://api.openweathermap.org/data/2.5/onecall?lat=${coordinates.lat}&lon=${coordinates.lon}&appid=${apiKey}units=imperial`;
-  axios.get(apiURL).then(displayForecast);
-}
+
+
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(

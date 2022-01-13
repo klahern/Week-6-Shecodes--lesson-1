@@ -42,26 +42,22 @@
 
       <hr />
 
-      <div class="forecast">
-        <div class="row justify-content-center">
-          <div class="col-2">
-            <img src="http://openweathermap.org/img/wn/${response.data.weather[0].icon}@1x.png">
-            <div class="weather-forecast-temperatures">
-              <span class="weather-forecast-temperatures-max"> 67° </span>
-              <span class="weather-forecast-temperatures-min">43°</span>
-            </div>
-          </div>
-        </div>
-      </div>
 
 
       <div>
         <form class="search-form" id="search-form">
           <input type="search" placeholder="Type a city..." autocomplete="off" id="city-input">
-          <button> Search </button>
-          <button id="current-location-button"> Current </button>
         </form>
+
+        <br>
+        <div class="buttons-grouped">
+          <button id="search-button"> Search </button>
+          <button id="current-location-button"> Current </button>
+        </div>
+
       </div>
+      <br>
+
     </div>
 
 
